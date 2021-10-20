@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Shrek';
+    src: url('../SHREK___.TTF') format('truetype');
+}
+
+body{
+ 
+    background-image:url("../img/final.jpeg");
+    background-color: black;
+    background-repeat:no-repeat;
+    /* background-position-y: 5ch; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuboLab{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.labs{
+   margin-top: 30px;
+}
+
+.cuboCaminho{
+   background-color:lawngreen;
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cuboParede{
+    background-color: green;
+}
+
+
+.cuboStart{
+    background-color:lawngreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.cuboEnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height: 30px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+.linha{
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+
+.playerCurrent{
+  
+    width: 25px;
+    height: 25px;
+    top: 7px;
+    left: 7px;
+}
+
+.imgPlayer{
+    content:url(..//img/shrek_PNG5.png);
+}
+
+.imgEnd{
+    content:url(../img/shrek-cat-and-burro-11530967393gymf6pc9tc.png);
+    width:32px; 
+    height:32px;
+}
+
+.imgBurro{
+    content:url(../img/burro.png);
+}
+
+
+
+.espelhar{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+/* .playerCurrent.image{
+    
+} */
+
+
+.divWinner{
+    width: 100%;
+    background-color:black;
+    text-align: center;
+    line-height:25px;
+    height: 30px;
+    color: white
+}
+
+#text{
+    font-family: 'Shrek';
+}
+
+
+.reset{
+    font-family: 'Shrek';
+    width:130px;
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    height:50px;
+    margin-top: 20px;
+  
+}
+
+
+.reset:hover{
+    background-color:white;
+    color:black;
+    cursor:pointer;
+}
+
+#textWinner{
+    height: 50px
+}
+
+
+
